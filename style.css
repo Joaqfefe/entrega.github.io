@@ -46,6 +46,7 @@
 
 .fondo img {
     width: 100%;
+    border: 1px solid black;
 }
 
 .parrafo {
@@ -59,6 +60,7 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    border: 1px solid black;
 }
 
 .span {
