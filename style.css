@@ -16,21 +16,29 @@
 
 .menu1 li {
     float: left;
-    margin: 0px 40px 40px 0px;
+    margin: 0px 10px 30px 0px;
+}
+
+.imagen1 {
+    margin: 0px 0px 0px 0em;
 }
 
 .imagen1 img {
     width: 70px;
+    border: 1px solid #000;
+    margin: 0px 0px 0px 30px;
 }
 
 .imagen2 img {
     width: 100px;
     height: 100px;
+    border: 1px solid #000;
 }
 
 .imagen2 {
     background-color: white;
     border: 1px solid black;
+    width: 100%;
 }
 
 .box1 {
@@ -53,8 +61,11 @@
 .parrafo {
     display: flex;
     justify-content: center;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-style: oblique;
+    border: 1px solid black;
+    font-size: large;
 }
 
 .cabecera {
@@ -70,6 +81,11 @@
     margin-top: 30%;
 }
 
+.gif2 {
+    display: flex;
+    justify-content: center;
+}
+
 .descripcion {
     display: flex;
     justify-content: center;
@@ -78,16 +94,111 @@
     color: white;
 }
 
-.MarcoLogin {
+.MarcoLogin label {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 50px;
 }
 
-.boton {
+.MarcoLogin input {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.boton1 {
     display: flex;
     justify-content: center;
     background-color: white;
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.boton3 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.boton4 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.boton5 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.boton6 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.gif {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://nuestravidafitness.com/wp-content/uploads/2018/05/Ronnie-coleman-antes-y-despues-1-1024x538.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px 40px 0px;
+    border: 1px solid #000;
+}
+
+#color-overlay {
+    width: 100%;
+    height: 50vh;
+    opacity: 0.65;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#text-bg {
+    line-height: 50vh;
+    font-size: 80px;
+    margin: 0px;
+    font-family: Verdana;
+}
+
+.fondologin img {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 3em;
+}
+
+.carrito {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carrito2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-style: italic;
+    color: white;
 }
 
 @media (min-width:640px) {
@@ -103,5 +214,33 @@
         display: flex;
         margin: 10px 10px 10px 10px;
         flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu1 li {
+        float: left;
+        margin: 0px 80px 30px 0px;
+    }
+
+    #marco {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MarcoLogin {
+        display: flex;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .fondologin img {
+        height: 600px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 25%;
     }
 }
