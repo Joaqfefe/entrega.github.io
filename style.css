@@ -200,7 +200,19 @@ span {
     font-style: italic;
     color: white;
 }
-
+#items{
+    display: flex;
+    justify-content: center;
+    border: #000 1px solid;
+}
+#logear{
+    display: flex;
+    align-items: flex-end;
+}
+#marco{
+    display: flex;
+    flex-direction: row;
+}
 @media (min-width:640px) {
 
     .box2 {
@@ -225,6 +237,7 @@ span {
 
     #marco {
         display: flex;
+        justify-content:center;
         flex-direction: column;
     }
 

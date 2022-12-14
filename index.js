@@ -104,9 +104,11 @@ function vaciarprecios() {
     clicks_button5 = 0;
     clicks_button6 = 0;
     document.getElementById("list").innerHTML = null;
+    document.getElementById("items").style.display="none";
 }
 
 function addElement(name, price) {
     let list = document.getElementById("list");
+    document.getElementById("items").style.display="flex";
     list.innerHTML = list.innerHTML + "<li>" + name + " - " + price + "</li>";
 }
