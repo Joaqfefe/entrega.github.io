@@ -238,7 +238,7 @@ span {
     #marco {
         display: flex;
         justify-content:center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .MarcoLogin {
@@ -254,6 +254,5 @@ span {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        margin-left: 25%;
     }
 }
